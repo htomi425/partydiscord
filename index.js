@@ -71,7 +71,7 @@ function unpack() {
 
 function download() {
   var file = fs.createWriteStream('./parrot.zip');
-  var request = http.get("http://cultofthepartyparrot.com/parrots-c56c7933c6.zip", function(response) {
+  var request = http.get("https://cultofthepartyparrot.com/parrots-088df5ffac.zip", function(response) {
     response.pipe(file);
     file.on('finish', function() {
       file.close(unpack);
