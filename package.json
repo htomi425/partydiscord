@@ -1,9 +1,10 @@
 {
-  "name": "partydiscord",
+  "name": "PartyParrotDiscordBot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Skye Viau <skye.viau@protonmail.com> (Kizzaris)",
@@ -13,5 +14,9 @@
     "discord.js": "^11.2.1",
     "moment": "^2.20.1",
     "rimraf": "^2.6.2"
+  }
+  "engines": {
+    "node": "^16.6.0",
+    "npm": "^7.24.2"
   }
 }
